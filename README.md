@@ -1,0 +1,2 @@
+# starship
+Starship configuration files
