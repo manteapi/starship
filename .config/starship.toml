@@ -2,11 +2,20 @@ scan_timeout = 10
 command_timeout = 200
 add_newline = true 
 
+[cmd_duration]
+style = "bold blue"
+
+[character]
+success_symbol = "[>](bold blue) "
+
 [time]
 disabled = false
+style = "white"
 
 [username]
 show_always = true
+style_user = "bold blue"
 
 [hostname]
 ssh_only = false 
+style = "bold white"
