@@ -6,18 +6,21 @@ add_newline = true
 style = "bold blue"
 
 [character]
-success_symbol = "[>](bold blue) "
+success_symbol = "[❯](bold blue) "
+
+[directory]
+truncation_length = 2
 
 [time]
-disabled = false
+disabled = true
 style = "white"
 
 [username]
-show_always = true
+show_always = false
 style_user = "bold blue"
 
 [hostname]
-ssh_only = false
+ssh_only = true
 style = "bold white"
 
 [git_branch]
